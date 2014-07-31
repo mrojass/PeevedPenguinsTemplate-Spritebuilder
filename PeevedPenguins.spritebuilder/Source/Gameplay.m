@@ -19,7 +19,7 @@
     if (self) {
         CCButton *retryButton = [CCButton buttonWithTitle:@"Retry"];
         retryButton.anchorPoint = ccp(0,0);
-        retryButton.position= ccp(self.contentSize.width - 130, 120);
+        retryButton.positionType = CCPositionTypeNormalized;
     }
     
     return self;
